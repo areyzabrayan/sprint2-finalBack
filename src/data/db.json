@@ -1,0 +1,54 @@
+{
+    "teatros":[
+        {
+            "id": 1,
+            "name": "Jose Antonio"          
+        },
+        {
+            "id": 2,
+            "name": "Estelar"           
+        },
+        {
+            "id": 3,
+            "name": "Puerta del norte"
+        },
+        {
+            "id": 4,
+            "name": "Aves Maria"
+        },
+        {
+            "id": 5,
+            "name": "El tesoro"
+        }  
+    ],
+    "funciones":[
+        {
+            "id":1,
+            "pelicula":"",
+            "hora":[
+                {
+                    "id":1,
+                    "time":"16:00"
+                },
+                {
+                    "id":2,
+                    "time":"18:00"
+                },
+                {
+                    "id":1,
+                    "time":"20:00"
+                }               
+            ]
+        }
+    ],
+    "tikets":[
+        {
+            "id": "",
+            "data":"",
+            "time": "",
+            "seating":"",
+            "quantity":""
+        }
+    ]
+}
+
