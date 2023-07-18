@@ -21,6 +21,28 @@
             "name": "El tesoro"
         }  
     ],
+    "fechas":[
+        {
+            "id": 1,
+            "dia": "9 de Agosto"
+        },
+        {
+            "id": 2,
+            "dia": "10 de Agosto"
+        },
+        {
+            "id": 3,
+            "dia": "11 de Agosto"
+        },
+        {
+            "id": 4,
+            "dia": "12 de Agosto"
+        },
+        {
+            "id": 5,
+            "dia": "13 de Agosto"
+        }
+    ],
     "funciones":[
         {
             "id":1,
@@ -44,6 +66,7 @@
     "tikets":[
         {
             "id": "",
+            "idFuntion":"",
             "data":"",
             "time": "",
             "seating":"",
