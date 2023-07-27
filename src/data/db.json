@@ -1,91 +1,446 @@
 {
-    "usuarios":[
-        {
-            "id":1,
-            "name":"Alexis",
-            "email":"Alexisprueba@gmail.com",
-            "password":"1234"
-        },
-        {
-            "id":2,
-            "name":"Brayan",
-            "email":"Brayanprueba@gmail.com",
-            "password":"12345"
-        }
+    "usuarios": [
+      {
+        "id": 1,
+        "name": "Alexis",
+        "email": "Alexisprueba@gmail.com",
+        "password": "1234"
+      },
+      {
+        "id": 2,
+        "name": "Brayan",
+        "email": "Brayanprueba@gmail.com",
+        "password": "12345"
+      }
     ],
-    "teatros":[
-        {
-            "id": 1,
-            "name": "Jose Antonio"          
-        },
-        {
-            "id": 2,
-            "name": "Estelar"           
-        },
-        {
-            "id": 3,
-            "name": "Puerta del norte"
-        },
-        {
-            "id": 4,
-            "name": "Aves Maria"
-        },
-        {
-            "id": 5,
-            "name": "El tesoro"
-        }  
-    ],
-    "fechas":[
-        {
-            "id": 1,
-            "dia": "9 de Agosto"
-        },
-        {
-            "id": 2,
-            "dia": "10 de Agosto"
-        },
-        {
-            "id": 3,
-            "dia": "11 de Agosto"
-        },
-        {
-            "id": 4,
-            "dia": "12 de Agosto"
-        },
-        {
-            "id": 5,
-            "dia": "13 de Agosto"
-        }
-    ],
-    "funciones":[
-        {
-            "id":1,
-            "pelicula":"",
-            "hora":[
-                {
-                    "id":1,
-                    "time":"16:00"
-                },
-                {
-                    "id":2,
-                    "time":"18:00"
-                },
-                {
-                    "id":1,
-                    "time":"20:00"
-                }               
+    "cines": [
+      {
+        "name": "CC Puerta del norte",
+        "direccion": "Calle 123, Ciudad X",
+        "salas": [
+          {
+            "numero": 1,
+            "capacidad": 100,
+            "peliculas": [
+              {
+                "titulo": "Spider-Man: No Way Home",
+                "duracion": "2h 28min",
+                "genero": "Acción/Aventura",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-27",
+                    "horario": "10:00 AM"
+                  },
+                  {
+                    "fecha": "2023-07-27",
+                    "horario": "2:00 PM"
+                  },
+                  {
+                    "fecha": "2023-07-27",
+                    "horario": "6:00 PM"
+                  }
+                ]
+              },
+              {
+                "titulo": "The Matrix Resurrections",
+                "duracion": "2h 28min",
+                "genero": "Acción/Ciencia ficción",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              }
             ]
-        }
+          },
+          {
+            "numero": 2,
+            "capacidad": 80,
+            "peliculas": [
+              {
+                "titulo": "Dune",
+                "duracion": "2h 35min",
+                "genero": "Ciencia ficción/Acción",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              },
+              {
+                "titulo": "The French Dispatch",
+                "duracion": "1h 48min",
+                "genero": "Comedia/Drama",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cc Fabricato",
+        "direccion": "Avenida ABC, Ciudad Y",
+        "salas": [
+          {
+            "numero": 1,
+            "capacidad": 120,
+            "peliculas": [
+              {
+                "titulo": "No Time to Die",
+                "duracion": "2h 43min",
+                "genero": "Acción/Aventura",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              },
+              {
+                "titulo": "A Quiet Place Part II",
+                "duracion": "1h 37min",
+                "genero": "Terror/Suspenso",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "numero": 2,
+            "capacidad": 90,
+            "peliculas": [
+              {
+                "titulo": "Black Widow",
+                "duracion": "2h 13min",
+                "genero": "Acción/Aventura",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              },
+              {
+                "titulo": "Shang-Chi and the Legend of the Ten Rings",
+                "duracion": "2h 12min",
+                "genero": "Acción/Aventura",
+                "horarios": [
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "12:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "4:30 PM"
+                  },
+                  {
+                    "fecha": "2023-07-28",
+                    "horario": "8:30 PM"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
-    "tikets":[
-        {
-            "id": "",
-            "idFuntion":"",
-            "data":"",
-            "time": "",
-            "seating":"",
-            "quantity":""
+    "cinemas": [
+      {
+        "id": 1,
+        "name": "CC Puerta del norte",
+        "salas": [
+          {
+            "id": 1,
+            "numberRoom": 1,
+            "idFuncion": 1
+          },
+          {
+            "id": 2,
+            "numberRoom": 2,
+            "idFuncion": 2
+          },
+          {
+            "id": 3,
+            "numberRoom": 3,
+            "idFuncion": 3
+          },
+          {
+            "id": 4,
+            "numberRoom": 4,
+            "idFuncion": 4
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "CC Fabricato",
+        "salas": [
+          {
+            "id": 1,
+            "numberRoom": 1,
+            "idFuncion": 1
+          },
+          {
+            "id": 2,
+            "numberRoom": 2,
+            "idFuncion": 2
+          },
+          {
+            "id": 3,
+            "numberRoom": 3,
+            "idFuncion": 3
+          },
+          {
+            "id": 4,
+            "numberRoom": 4,
+            "idFuncion": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "CC Viva",
+        "salas": [
+          {
+            "id": 1,
+            "numberRoom": 1,
+            "idFuncion": 1
+          },
+          {
+            "id": 2,
+            "numberRoom": 2,
+            "idFuncion": 2
+          },
+          {
+            "id": 3,
+            "numberRoom": 3,
+            "idFuncion": 3
+          },
+          {
+            "id": 4,
+            "numberRoom": 4,
+            "idFuncion": 4
+          }
+        ]
+      }
+    ],
+    "funciones": [
+      {
+        "id": 1,
+        "idMovie": "1040148",
+        "programacion": {
+          "id": 1,
+          "date": [
+            {
+              "id": 1,
+              "dia": "2023-08-12",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 2,
+              "dia": "2023-08-13",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 3,
+              "dia": "2023-08-14",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            }
+          ]
         }
-    ]
-}
+      },
+      {
+        "id": 2,
+        "idMovie": "459003",
+        "programacion": {
+          "id": 1,
+          "date": [
+            {
+              "id": 1,
+              "dia": "2023-08-12",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 2,
+              "dia": "2023-08-13",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 3,
+              "dia": "2023-08-14",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "idMovie": "346698",
+        "programacion": {
+          "id": 1,
+          "date": [
+            {
+              "id": 1,
+              "dia": "2023-08-15",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 2,
+              "dia": "2023-08-17",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 3,
+              "dia": "2023-08-19",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "idMovie": "569094",
+        "programacion": {
+          "id": 1,
+          "date": [
+            {
+              "id": 1,
+              "dia": "2023-08-14",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 2,
+              "dia": "2023-08-18",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            },
+            {
+              "id": 3,
+              "dia": "2023-08-20",
+              "horarios": {
+                "id": 1,
+                "primeraFuncion": "14:00",
+                "segundaFuncion": "16:00",
+                "ultimaFuncion": "20:00"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tiquetes": []
+  }
 
