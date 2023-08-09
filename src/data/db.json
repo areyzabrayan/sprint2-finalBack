@@ -2159,5 +2159,16 @@
       "horaFuncion3": "21:30"
     }
   ],
-  "tiquetes": []
+  "tiquetes": [
+    {
+      "email": "ultimaprueba@gmail.com",
+      "movieId": null,
+      "name": "Ultimo trabajo",
+      "number": "1245789654",
+      "dateTarjet": "12-25-23",
+      "cvv": "254",
+      "cine": "CC Puerta del norte",
+      "id": 1
+    }
+  ]
 }
